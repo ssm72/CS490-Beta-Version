@@ -1,0 +1,50 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="professorAndStudent.css">
+	<!-- <script src="professor.js"></script> -->
+	<link rel="icon" type="image/png" href="pics/favicon-96x96.png">
+</head>
+
+<body>
+	<div id="headerMainDiv">
+		<div id="headerDiv">
+			<div id="logoDiv" >
+				<!-- <img src="pics/examination-grade.png" style="width:75px;"></img> -->
+				<!-- <img src="pics/magni-paper.png" style="width:75px;"></img> -->
+				<!-- <img src="pics/graduation-degree.png" style="width:105px;"></img> -->
+				<img src="pics/question-paper.jpg" style="width: 61px; border: black solid 2px; border-radius: 13px;"></img>
+				<!-- <img src="pics/test.png" style="width: 75px; border:"></img> -->
+			</div>
+			<div id="userNameDiv" onclick="document.getElementById('logout').style.display = 'block'; document.getElementById('userName').style.margin = '3px';">
+				<h1 id="userName">User Name&#9660;</h1>
+				<div>
+					<h2 id="logout">Logout</h2>
+				<div>
+			</div>
+		</div>
+	</div>
+</div>	
+	<div style="clear:both"></div>
+	
+	<div id="professorMenuMainDiv">
+		<div id="professorMenuDiv">
+			<h1>What would you like to do today?</h1>
+			<div>
+				<a href="createQuestion/createQuestion.html" target="currentResult"><h3>Add a question(s)</h3></a>
+			</div>
+			<div>
+				<a href="makeExam/makeExam.html" target="currentResult"><h3>Make an exam</h3></a>
+			</div>
+			<div>
+				<a><h3>Check students Grades</h3></a>
+			</div>
+		</div>
+		
+		<iframe name="currentResult" id="currentResult">
+			
+		</iframe>
+	</div>
+	</body>
+
+</html>

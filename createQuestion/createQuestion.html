@@ -1,0 +1,49 @@
+<html>
+
+<head>
+	<title>Create Question</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="NJIT CS 490 Project">
+	<meta name="keywords" content="HTML,CSS,Ajax,php,New Jersey Institute of Technology, Alpha, Alpha Version,CS 490,NJIT">
+	<link rel="stylesheet" href="createQuestion.css">
+	<link rel="icon" type="image/png" href="favicon-96x96.png">
+	<script src="createQuestion.js"></script>
+</head>
+
+<body>
+	
+	<div>
+
+<!--		<form id="loginForm" method="POST" action="createQuestion.php"> -->
+		<form id="loginForm">
+			<label><h1 style="text-align: center; font-family: ">Add a question to test bank</h1></label>
+			<br>
+			<div>
+				<textarea type="text" name="question" id="questionArea" placeholder="Enter the question here." required></textarea>
+			</div>
+
+			<div id="testCaseArea">
+				<textarea type="text" name="testCase1" id="testCase1Area" placeholder="Enter test Case 1."></textarea>
+				<textarea type="text" name="testCase2" id="testCase2Area" placeholder="Enter test Case 2."></textarea>
+				<textarea type="text" name="testCase3" id="testCase3Area" placeholder="Enter test Case 3."></textarea>
+			</div>
+
+			<div style="float: right; margin-top: 20px;">
+			<select type="text" id="selectDifficulty" name="diff" required>
+				<option value="">Difficulty Level</option>
+				<option value="Easy">Easy</option>
+				<option value="Medium">Medium</option>
+				<option value="Hard">Hard</option>
+			</select>
+			</div>
+			<div style="clear:both"></div>
+			<div style="clear:both; margin-top: 5px;">
+				<button type="button" value="submit" id="addButton" onclick="sendData()">Add</button>
+				<button type="reset" id="resetButton">Reset</button>
+			</div>
+
+		</form>
+	</div>
+</body>
+
+</html>

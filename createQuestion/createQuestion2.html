@@ -1,0 +1,83 @@
+<!---
+<html>
+
+	<head>
+		<title>Create a question</title>
+		<link rel="stylesheet" href="createQuestion.css">
+		<link rel="icon" type="image/png" href="../pics/favicon-96x96.png">
+	</head>
+	
+	<body>
+	
+	<div style="float: right; width: 100%">
+		<h1 style="text-align: center">Add a question to test bank</h1>
+		
+		<form style="width: 80%; margin: auto;">
+		
+			<div style="width: 100%; margin:auto;">
+				<textarea id="questionArea" name="question" autofocus required></textarea>
+			</div>
+			<br>
+			<div style="float: right">
+			
+			<select id="selectDifficulty" name="diff" required>
+				<option value="">Difficulty Level</option>
+				<option value="Easy">Easy</option>
+				<option value="Medium">Medium</option>
+				<option value="Hard">Hard</option>
+			</select>
+			</div>
+			
+			<br>
+			<br>
+			
+			<div>
+				<button type="submit" id="addButton">Add</button>
+				<button type="reset" id="resetButton">Reset</button>
+			</div>
+		</form>
+		
+		
+	</div>
+	</body>
+</html>
+-->
+
+<html>
+
+<head>
+	<title>Create Question</title>
+	<link rel="stylesheet" href="createQuestion.css">
+	<link rel="icon" type="image/png" href="favicon-96x96.png">
+</head>
+
+<body>
+	
+	<!-- Login Form Div to center it on the page -->
+	<div style="top:30%; bottom: 50%; right:0; left:0; position:absolute">
+
+	<!-- Login Form -->
+		<form id="loginForm" method="POST" action="createQuestion.php">
+			<label><h1 style="text-align: center; font-family: ">Login</h1></label>
+			<br>
+			<!--<label>Username:</label>-->
+			<div>
+			<textarea type="text" name="question" id="questionArea" placeholder="question"></textarea>
+			</div>
+			<!--<label>Password:</label>-->
+			<div>
+<!--			<input type="number" name="diff" id="diff" placeholder="diff"> -->
+			<select id="selectDifficulty" name="diff" required>
+				<option value="">Difficulty Level</option>
+				<option value="Easy">Easy</option>
+				<option value="Medium">Medium</option>
+				<option value="Hard">Hard</option>
+			</select>
+			</div>
+			<button type="submit" value="submit" id="submitButton">Submit</button>
+		</form>
+	</div>
+</body>
+
+</html>
+

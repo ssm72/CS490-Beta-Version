@@ -1,0 +1,133 @@
+#examPointsDiv{
+	float: right;
+	width: 100%;
+}
+
+#examPoints{
+	width: 70%;
+	margin: auto;
+}
+
+#examPointsInputAndSubmitButton{
+	width: 50%; 
+	margin: auto;
+}
+
+#totalPoints{
+	font-size: 21px;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+#submitTotalExamPoints{
+	margin: auto;
+	margin-right: 15px;
+	height: 35px;
+	width: 90px;
+	font-size: 1em;
+	border-radius: 20px;
+	display: inherit;
+	background-color: #660000;
+	color: white;
+	float: right;
+}
+
+#questionsDiv{
+	display: none;
+}
+
+#selectedQuestionsAndButtonsDiv{
+	width: 38%;
+	float: left;
+	position: relative;
+}
+
+#selectedQuestions{
+	border: 3px solid black; 
+	float: left; 
+	width: 70%; 
+	height: 85vh;
+}
+
+#addOrRemoveButton{
+	top: 47%;
+	bottom: 47%;
+	right: 0;
+	position: absolute;
+	width: 25%;
+	float: right;
+}
+
+
+#addButton{
+	margin: auto;
+	margin-right: 15px;
+	height: 35px;
+	width: 90px;
+	font-size: 1em;
+	border-radius: 20px;
+	display: inherit;
+	background-color: #660000;
+	color: white;
+}
+
+#removeButton{
+	margin: auto;
+	margin-right: 15px;
+	height: 35px;
+	width: 120px;
+	font-size: 1em;
+	border-radius: 20px;
+	display: inherit;
+	background-color: #660000;
+	color: white;
+}
+
+
+#databaseQuestions{
+	border: 3px solid black;
+	float: right;
+	width: 60%;
+	height: 85vh;
+	margin-right: 15px;
+}
+
+#searchDatabaseQuestions{
+	padding: 10px; 
+	width: 100%;
+	text-align: center;
+	font-size: 21px;
+	border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#buttonDiv{
+	clear:both;
+	padding-top: 10px;
+}
+
+#resetButton{
+	margin: auto;
+	height: 35px;
+	width: 90px;
+	font-size: 1em;
+	border-radius: 20px;
+	display: inherit;
+	background-color: #660000;
+	color: white;
+	float:left;
+}
+
+#makeExamButton{
+	margin: auto;
+	margin-right: 15px;
+	height: 35px;
+	width: 121px;
+	font-size: 1em;
+	border-radius: 20px;
+	display: inherit;
+	background-color: #660000;
+	color: white;
+	float: right;
+}
+

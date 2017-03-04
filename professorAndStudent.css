@@ -1,0 +1,74 @@
+/* #professorMenu{
+	padding: 10px;
+	border: 3px;
+	background-color: #000;
+	color: #fff;
+	width: 30%;
+	margin: auto;
+	height: auto;
+	border-radius: 20px;
+	top:30%; 
+	bottom: 40%; 
+	right:0; 
+	left:0; 
+	position:absolute;
+	text-align: center;
+} */
+
+/***************** HEADER ************************/
+#headerMainDiv{
+	width: 100%; 
+	border: 0px;
+}
+
+#headerDiv{
+	width: 90%; 
+	margin:auto;
+}
+
+#logoDiv{
+	float: left;
+	width: 350px;
+}
+
+#userNameDiv{
+	float: right; 
+	padding-right: 15px; 
+	padding-left: 15px; 
+	/* border: 3px solid black; 
+	border-radius: 15px; */
+}
+
+#userName{
+	text-align: right;
+}
+
+#logout{
+	display: none;
+	margin: 0px;
+	text-align: center;
+}
+
+
+/***************** Menu ****************************/
+#professorMenuMainDiv, #studentMenuMainDiv{
+	clear:both; 
+	margin-top: 10px;
+}
+
+#professorMenuDiv, #studentMenuDiv{
+	float: left; 
+	width: 15%; 
+	min-height: 50vh; 
+	border: none; 
+	border-right: 2px;
+}
+
+/****************** Current Result Area ***********************/
+
+#currentResult{
+	float: right; 
+	width: 83%; 
+	border:none; 
+	height:80vh;
+}

@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Make an Exam</title>
+	<link rel="stylesheet" href="makeExam.css">
+	<script src="makeExam.js"></script>
+
+	<link rel="icon" type="image/png" href="../pics/favicon-96x96.png">
+</head>
+
+<body>
+	
+	<div id="examPointsDiv">
+		<div id="examPoints">
+				<h1>How many points would you want this exam to be of?</h1>
+				<div id="examPointsInputAndSubmitButton">
+					<input type="number" name="totalPoints" id="totalPoints"/>
+					<button type="submit" name="submitTotalExamPoints" id="submitTotalExamPoints" onclick="submitTotalPoints();">Submit</button>
+				</div>
+		
+			
+		</div>
+
+		<div id="questionsDiv">
+			<form action="makeExam.php" method="GET">
+
+				<div id="examQuestions">
+	
+					<div id="selectedQuestionsAndButtonsDiv">
+						<div id="selectedQuestions">
+							<h1 style="text-align: center; margin: 3px auto;">Selected Questions</h1>
+						</div>
+	
+						<div id="addOrRemoveButton">
+							<button type="button" name="addButton" id="addButton" value="addButton"><< Add</button>
+							<button type="button" name="removeButton" id="removeButton" value="removeButton">Remove >></button>
+						</div>
+					</div>
+
+					<div id="databaseQuestions">
+						<h1 style="text-align: center; margin: 3px auto;">Database Questions</h1>
+						<input type="text" id="searchDatabaseQuestions" placeholder="Search">
+            <div id="allQuestions">
+            </div>
+            <div id="questionDiff"></div>
+					</div>
+				</div>
+				<div style="width: 30%;">
+					<h2 style="float:left;">Total:</h2><h2 style="float:right;" id="outof"></h2>
+				</div>
+				<div id="buttonDiv">
+					<button type="reset" id="resetButton">Reset</button>
+					<button type="submit" id="makeExamButton">Make Exam</button>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
